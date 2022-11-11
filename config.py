@@ -7,10 +7,10 @@ import logging
 
 BACKEND = "Text"  # Errbot will start in text mode (console only mode) and will answer commands from there.
 
-BOT_DATA_DIR = r"/Users/jeffrey/Projects/errbot/data"
-BOT_EXTRA_PLUGIN_DIR = r"/Users/jeffrey/Projects/errbot/plugins"
+BOT_DATA_DIR = r"data"
+BOT_EXTRA_PLUGIN_DIR = r"plugins"
 
-BOT_LOG_FILE = r"/Users/jeffrey/Projects/errbot/errbot.log"
+BOT_LOG_FILE = r"errbot.log"
 BOT_LOG_LEVEL = logging.INFO
 
 BOT_ADMINS = (
